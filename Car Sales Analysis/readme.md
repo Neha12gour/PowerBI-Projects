@@ -1,89 +1,103 @@
-# Coffee Shop Sales Report Dashboard
+# Car Sales Dashboard
 
 ## Overview  
-This project presents an in-depth sales performance analysis for a coffee shop chain using **Microsoft Power BI**.  
-The dashboard was created to visualize key business metrics such as total sales, quantity sold, product performance, and customer behavior across multiple outlets and time periods.  
+This Power BI project provides a detailed analysis of car sales performance across multiple regions, dealerships, and car models.  
+The dashboard is designed to help businesses monitor key performance indicators such as total sales, cars sold, average prices, and regional distribution.  
 
-The goal of this analysis is to identify **peak business hours**, **top-selling products**, and **key factors driving sales**, helping management make data-driven decisions to optimize operations and marketing strategies.  
+It consists of two pages — **Overview** and **Details**, offering both high-level trends and transaction-level insights for deeper business understanding.
 
 ---
 
 ## Key Highlights  
-- **Total Sales:** $698,812  
-- **Total Transactions:** 149,116  
-- **Total Quantity Sold:** 214,470  
+- **YTD Total Sales:** $371.2M  
+- **MTD Total Sales:** $54.28M  
+- **YTD Growth:** +23.59%  
+- **YTD Average Price:** $28.0K  
+- **YTD Cars Sold:** 13.3K  
+- **MTD Cars Sold:** 1.92K  
 
 ---
 
 ## Dashboard Insights  
 
 ### 1. Sales Overview  
-- Displays total revenue and quantity sold across all stores.  
-- Filters available for **day of the week** and **month** to analyze time-based performance.  
-- Highlights hourly trends to identify customer footfall and purchasing behavior throughout the day.  
+- Tracks overall Year-to-Date (YTD) and Month-to-Date (MTD) sales, including average car price and total cars sold.  
+- Visualizes sales growth percentage and month-on-month comparisons for quick business assessment.  
+- Helps identify market performance using metrics like **sales trend**, **average car price**, and **sales by category**.  
 
-### 2. Product Performance  
-- **Top 10 Products by Quantity:** Features best-selling items like *Ethiopia, Columbian Medium Roast, and Latte*.  
-- **Distribution by Product Type:** Shows which beverage types (Coffee, Tea, Bakery items) dominate overall sales.  
-- **Distribution by Product Category:** Analyzes key product segments such as Coffee, Tea, Bakery, and Flavours, revealing that Coffee contributes the largest share of total revenue.  
+### 2. Sales Trends  
+- The **YTD Sales Weekly Trend** line chart highlights variations in sales throughout the year.  
+- Peak sales periods are easily identifiable, helping management analyze demand cycles and promotional impacts.  
+- The average car price remains stable, ensuring steady revenue growth.  
 
-### 3. Store & Location Analysis  
-- **Location-wise Sales:** Compares store performance across *Astoria*, *Hell’s Kitchen*, and *Lower Manhattan*.  
-- **Time-based Filters:** Allow tracking of sales variation across different days and months to spot demand trends.  
+### 3. Sales Breakdown  
+- **Sales by Body Style:** Reveals SUVs and Sedans as top-selling body styles, followed by Hatchback and Passenger vehicles.  
+- **Sales by Color:** Pale White and Black cars dominate sales, showing customer preference for neutral tones.  
+- **Sales by Dealer Region:** Map visualization displays regional performance, with the central and eastern U.S. regions leading in total sales volume.  
 
-### 4. Customer Preference Insights  
-- **Size-wise Sales:** Shows revenue contribution by drink size — *Small, Regular, Large* — with Large sizes contributing over 30% of sales.  
-- **Hourly Sales:** Identifies peak hours between *8 AM – 10 AM*, highlighting the breakfast-time rush and key sales window.  
+### 4. Company-Level Insights  
+- Leading manufacturers by YTD total sales include **Ford**, **Chevrolet**, and **Dodge**, collectively contributing over $7B in sales.  
+- **Chevrolet** has the highest number of cars sold, followed by **Ford** and **Dodge**.  
+- **Cadillac** and **BMW** maintain high average sales values, reflecting their premium market positioning.  
+
+### 5. Detailed Transaction View  
+- The **Details Page** provides row-level transaction insights for car sales.  
+- Columns include `Car ID`, `Date`, `Customer Name`, `Dealer Name`, `Company`, `Model`, `Color`, and `YTD Total Sales`.  
+- Enables filtering by **Body Style**, **Dealer Name**, **Transmission**, and **Engine Type** for refined analysis.  
+- Popular models include *Ford Focus*, *BMW 528i*, *Mitsubishi 3000GT*, and *Porsche Boxter*.  
 
 ---
 
 ## Key Observations  
-- Morning hours (8–10 AM) have the highest sales volume, showing strong demand during breakfast hours.  
-- Coffee remains the best-selling category, followed by Tea and Bakery items.  
-- Customers prefer *large-sized drinks*, indicating value-driven purchases.  
-- Sales are evenly distributed across all three store locations, showing consistent store performance.  
-- Seasonal patterns can be studied further using month-wise filters to plan marketing campaigns.  
+- **SUVs and Sedans** are the best-performing body styles, showing consistent customer demand.  
+- **Pale White** is the most preferred color, followed by **Black** and **Red**.  
+- **Ford** and **Chevrolet** dominate the market both in sales volume and revenue.  
+- Average price stability around **$28K** ensures strong market competitiveness.  
+- Central and East U.S. regions drive the majority of YTD sales.  
+- MTD sales performance of **$54.28M** indicates a steady month-on-month growth trend.  
 
 ---
 
 ## Tools and Technologies Used  
-- **Power BI:** For dashboard creation and visualization  
-- **Excel / CSV:** Data cleaning and preparation  
-- **Power Query:** For data transformation and shaping  
-- **DAX (Data Analysis Expressions):** For calculating KPIs like Total Sales, Total Transactions, and Quantity Sold  
+- **Power BI:** Dashboard creation and visualization  
+- **Excel / CSV:** Data cleaning and preprocessing  
+- **Power Query:** Used for data transformation  
+- **DAX (Data Analysis Expressions):** To calculate KPIs like YTD Sales, MTD Sales, and Growth Percentage  
 
 ---
 
 ## Features  
-- Interactive filters for **Day**, **Month**, and **Store Location**.  
-- Product-level and category-level sales analysis.  
-- Clear visual storytelling using **pie charts**, **bar charts**, and **line graphs**.  
-- Hourly sales tracking for **staff scheduling** and **inventory planning**.  
-- Professional layout using a **warm coffee-inspired color palette**.  
+- Two-page interactive Power BI dashboard (**Overview** and **Details**)  
+- Dynamic filters for **Body Style**, **Dealer**, **Transmission**, and **Engine**  
+- YTD and MTD KPI tracking for financial performance  
+- Drill-through functionality from overview to transaction-level detail  
+- Regional map visual for geographic sales comparison  
+- Custom color themes for readability and visual clarity  
 
 ---
 
 ## Business Applications  
-- **Store Managers:** Optimize staffing and stock based on demand peaks.  
-- **Marketing Teams:** Identify top products and design promotions around them.  
-- **Operations Teams:** Improve logistics and distribution efficiency.  
-- **Owners/Executives:** Monitor performance and identify growth opportunities across locations.  
+- **Dealership Management:** Identify top-performing models and regions.  
+- **Sales Teams:** Track sales progress against monthly and yearly targets.  
+- **Marketing:** Analyze customer preferences by color and body type to plan promotions.  
+- **Operations:** Improve supply chain efficiency based on sales demand and regional trends.  
 
 ---
 
 ## Future Enhancements  
-- Integrate **customer feedback and loyalty data** for experience insights.  
-- Implement **predictive analytics** to forecast future demand.  
-- Add **profitability and cost analysis** for deeper financial evaluation.  
-- Automate updates using **Power BI Service** for real-time monitoring.  
+- Add **profit and cost analysis** to evaluate net margins.  
+- Integrate **real-time sales tracking** using Power BI Service.  
+- Include **forecasting visuals** to predict future sales based on trends.  
+- Develop a **customer segmentation report** to personalize marketing efforts.  
 
 ---
 
 ## How to Use  
-1. Open the `Coffee_Shop_Sales_Report.pbix` file in **Power BI Desktop**.  
-2. Use slicers (Day, Month, Location) to explore the data interactively.  
-3. Hover over visuals to view detailed tooltips.  
-4. Save or publish the dashboard to **Power BI Service** for sharing and collaboration.  
+1. Open the `Car_Sales_Dashboard.pbix` file in **Power BI Desktop**.  
+2. Use the **filters** on the left to explore the data by Body Style, Dealer, Transmission, and Engine Type.  
+3. Switch between the **Overview** and **Details** tabs for summary or transaction-level insights.  
+4. Hover over visuals for tooltips and detailed data points.  
+5. Publish to **Power BI Service** for cloud-based sharing and collaboration.  
 
 ---
 
